@@ -1,5 +1,5 @@
 Afrikaans
-� ማርኛ
+አማርኛ
 Аҧсшәа
 العربية
 Aragonés
@@ -13,7 +13,7 @@ Bân-lâm-gú
 Boarisch
 Bosanski
 Буряад
-Catal� 
+Català
 Чӑвашла
 Čeština
 Cymraeg
@@ -27,7 +27,7 @@ Esperanto
 Français
 Frysk
 Gaelg
-G� idhlig
+Gàidhlig
 Galego
 한국어
 Հայերեն
@@ -39,7 +39,7 @@ Italiano
 עברית
 ಕನ್ನಡ
 Kapampangan
-ქა� თული
+ქართული
 Қазақша
 Kreyòl ayisyen
 Latgaļu
@@ -50,8 +50,8 @@ Lietuvių
 Magyar
 Македонски
 Malti
-मरा� ी
-მა� გალუ� ი
+मराठी
+მარგალური
 مازِرونی
 Bahasa Melayu
 Монгол
@@ -70,7 +70,7 @@ Polski
 Português
 Română
 Romani
-� усский
+Русский
 Seeltersk
 Shqip
 Simple English
@@ -81,7 +81,7 @@ Suomi
 Svenska
 Tagalog
 தமிழ்
-� าษาไทย
+ภาษาไทย
 Taqbaylit
 Татарча/tatarça
 తెలుగు
