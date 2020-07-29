@@ -18,6 +18,7 @@ def the_hangman():
     }
 
     word_of_the_day = random.choice(words)
+    print(word_of_the_day)
 
     separated_word = []
     for letter in word_of_the_day:
@@ -25,6 +26,7 @@ def the_hangman():
 
     word_length = len(word_of_the_day)
     template = ['_ ' * word_length]
+    print(template)
     guessed = []
     tries = 5
 
@@ -61,15 +63,17 @@ def the_hangman():
         if letter in separated_word:
             guessed.append(guess)
             input("It is in the word. You got this!")
-            if separated_word.count(guess) > 1:
-                in_dices = [i for i, x in enumerate(separated_word) if x == guess]
-                for z in in_dices:
-                    template[z] = guess
-            else:
-                in_dex = separated_word.index(guess)
-                template[in_dex] = guess
+            # if separated_word.count(guess) == 0:
+            in_dex = separated_word.index(guess)
+            template[in_dex] = guess
+        else:
+                # in_dices = [i for i, x in enumerate(separated_word) if x == guess]
+                # for z in in_dices:
+                    # template[z] = guess
+            pass
 
-        if "_ " not in template:
+        end_game = input("If you have guessed all the letters, enter True.")     
+        if end_game == "True":
             print("Congratulations! You live to see another day!")
             exit(0)
     print("Good job! You're dead. I hope you find death by hanging suitable.")
